@@ -1,0 +1,22 @@
+1. You are building a Property rental mobile app, where you are a property owner and you would be listing your property for a rental.
+2. Posting the property is a 4-step process.
+
+3.1. On First screen, you will choose the type of property (available options : 1BHK, 2BHK, 3BHK, Hotel). Press NEXT to go to next screen.
+3.2. On Second screen, you would post the number of services available in the property (gym, pool, table tennis, garden). These four services would be listed down in a list format and you would have to select YES | NO in front fo every service that your property supports.
+3.3. On third screen, Based on the type of property that you chose in the first step, the number of rooms (in an editable field would be mentioned).
+for 1 BHK, room : 1 
+for 2 BHK, room : 2
+for 3 BHK, room : 3
+for hotel, room : empty (to be filled by the user)
+Just like the second step where you listed down property level services, here, there are 5 facilities that will be supported in "each" room which are : 
+FAN, AC, LIGHT, FRIDGE, TV.
+
+Based on the number of room selection above, an expandable div (for every room) would list these 5 options and you have to select YES | NO for these 5 options under every room. Please note that based on the selection of the user for the number of rooms in HOTEL, the expandable elements, div would also change.
+
+NEXT to go to screen 4.
+4. Upload one or more pictures of the property using camera and/or gallery.
+SUBMIT.
+
+Confirmation dialog should be shown based on whether the API could be hit with the data or not (based on internet connection was available or not). If the internet was there, then SUBMIT should show success (upon API response), else should show failure.
+
+Please note API to be provided by us soon. You may get started on the flow
